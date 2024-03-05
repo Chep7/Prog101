@@ -29,15 +29,18 @@
 	<h>Form With Semantic HTML</h>
 
  <form>
-	 <section>
-		 <label for="fullname">Fullname</label>
-		 <input type="text" id="fullname" name="fullname" required>
-	 </section>
-	 
-	 <section>
-		 <label for="email">Email</label>
-		 <input type="email" id="email" name="email" required>
-	 </section>
+	 <fieldset>
+		 <section>
+			 <legend>Personal Information</legend>
+			 <label for="fullname">Fullname</label>
+			 <input type="text" id="fullname" name="fullname" required>
+		 </section>
+		 
+		 <section>
+			 <label for="email">Email</label>
+			 <input type="email" id="email" name="email" required>
+		 </section>
+	 </fieldset>
 	 
 	 <section>
 		 <label for="password">Password</label>
