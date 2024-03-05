@@ -29,43 +29,43 @@
 	<h>Form With Semantic HTML</h>
 
  <form>
-	 <fieldset>
-		 <section>
-			 <legend>Personal Information</legend>
+	 <section>
+		 <h2>Personal Information</h2>
+		 <div>
 			 <label for="fullname">Fullname</label>
 			 <input type="text" id="fullname" name="fullname" required>
-		 </section>
+		 </div>
 		 
-		 <section>
+		 <div>
 			 <label for="email">Email</label>
 			 <input type="email" id="email" name="email" required>
-		 </section>
-	 </fieldset>
-	 
-	 <section>
+		 </div>
+		 
+		 <div>
 		 <label for="password">Password</label>
 		 <input type="password" id="password" name="password" required>
-	 </section>
-	 
-	 <section>
+		 </div>
+		 
+		 <div>
 		 <label for="gender">Gender</label>
 		 <select id="gender" name="gender">
 			 <option value="male">Male</option>
 			 <option value="female">Female</option>
 			 <option value="other">Other</option>
-		 </select>
+		 </div>
 		 
-	 </section>
-	 <section>
+		 <div>
 		 <label>
 			 <input type="checkbox" id="newsletter" name="newsletter">
 			 Subscribe to Newsletter
 		 </label>
-	 </section>
-	 <section>
+		 </div>
+		 
+		 <div>
 		 <label for="comments">Comments</label>
 		 <textarea id="comments" rows="4"></textarea>
-	 </section>
+		 </div>
+		 
 	 <button type="submit">Submit</button>
  </form>
 </body>
